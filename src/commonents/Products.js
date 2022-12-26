@@ -6,7 +6,7 @@ function Products(props) {
 
   return (
     <>
-      <div className='team rounded p-2 bg-dark'>
+      <div className='team rounded p-2 bg-secondary'>
         <p>Products</p>
         <p><img src={demo} alt="Product" /></p>
         <h5 className='name'>{name}</h5>

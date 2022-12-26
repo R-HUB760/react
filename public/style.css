@@ -7,9 +7,9 @@
   override-colors: 1 hotpink, 2 cyan, 1.5 white;
 } */
 
-img {
+.logs img {
   width: 15%;
-  aspect-ratio: 7/6;
+  aspect-ratio: 3/2;
   object-fit: contain;
   mix-blend-mode: color-dodge;
 }
@@ -19,13 +19,14 @@ img {
   box-sizing: border-box;
 }
 body{
-  background: repeating-radial-gradient(red 20%, green 30%) fixed;
+  background: repeating-radial-gradient(red 20%, rgb(24, 34, 24) 30%) fixed;
   color: white !important;
   min-height: 100vh;
 }
 a{
   color: white;
   border-radius: 10px;
+  text-decoration: none !important;
 }
 
 .App {
