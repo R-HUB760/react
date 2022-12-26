@@ -1,13 +1,13 @@
 const Data = [
   {
-    img   : "",
+    img   : 'photo/photo1.jpg',
     name : "1 Backpack, Fits 15 Laptops",
     price : "$1009.69",
     rate : "3.9/5",
     des : "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday"
   },
   {
-    img  : "photo/photo2.jpg",
+    img  : 'photo/photo2.jpg',
     name : "Mens Casual Premium Slim Fit T-Shirts",
     price : "$1009.69",
     rate : "3.9/5",
@@ -43,5 +43,5 @@ const Data = [
   }
 
 ];
-
+console.log(Data[0].img)
 export default Data

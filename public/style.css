@@ -39,3 +39,13 @@ button{
   font-size: large;
   cursor: pointer;
 }
+
+/* Products Img */
+.team img{
+  min-width: 100%;
+  max-height: 200px;
+  object-fit: fill;
+  padding: 5px 2px 5px 0px;
+  border-radius: 10px;
+  aspect-ratio: 1900/1000;
+}

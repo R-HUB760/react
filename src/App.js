@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 import TeamLists from './commonents/TeamLists';
-// import Abdur from './commonents/Abdur.jpg'
-
 
 function App() {
 
