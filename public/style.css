@@ -1,0 +1,41 @@
+/* Color Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
+
+/* @font-palette-values --colorized {
+  font-family: "Bungee Spice";
+  base-palette: 0;
+  override-colors: 1 hotpink, 2 cyan, 1.5 white;
+} */
+
+img {
+  width: 15%;
+  aspect-ratio: 7/6;
+  object-fit: contain;
+  mix-blend-mode: color-dodge;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: repeating-radial-gradient(red 20%, green 30%) fixed;
+  color: white !important;
+  min-height: 100vh;
+}
+a{
+  color: white;
+  border-radius: 10px;
+}
+
+.App {
+  backdrop-filter: blur(15px);
+}
+
+/* Button */
+button{
+  padding: 8px;
+  border-radius: 7px !important;
+  font-size: large;
+  cursor: pointer;
+}
