@@ -43,5 +43,5 @@ const Data = [
   }
 
 ];
-console.log(Data[0].img)
+
 export default Data
