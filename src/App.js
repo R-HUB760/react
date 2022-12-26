@@ -12,7 +12,7 @@ function App() {
           <div class="col-6 text-center">
 
             {/* My Photo */}
-            <img src={logo} alt='Logo' />
+            <a href='/index.html'><img src={logo} alt='Logo' /></a>
           </div>
 
           {/* Logo Text */}
