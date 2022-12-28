@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaAmbulance, FaGlobeAmericas, FaSpeakap, FaStumbleuponCircle } from "react-icons/fa";
+import ProductCount from './ProductCount';
 
 function Products(props) {
 
@@ -10,9 +11,9 @@ function Products(props) {
       <div className='team rounded p-2 bg-secondary'>
         <p>
           Products
-          <FaGlobeAmericas  className='icon-p' />
-          <FaStumbleuponCircle  className='icon-p' />
-          <FaSpeakap  className='icon-p' />
+          <FaGlobeAmericas className='icon-p' />
+          <FaStumbleuponCircle className='icon-p' />
+          <FaSpeakap className='icon-p' />
         </p>
         <p><img src={demo} alt="Product" /></p>
         <h5 className='name'>{name}</h5>
@@ -22,7 +23,8 @@ function Products(props) {
         <p><button>
           <FaAmbulance className='icon' />
           Add To Cart
-        </button></p>
+        </button>
+        <ProductCount /></p>
       </div>
     </>
   )

@@ -42,6 +42,13 @@ button{
   cursor: pointer;
 }
 
+/* Products number */
+.pro-num{
+  max-width: 70px;
+  max-height: 48px;
+}
+
+
 /* Products Img */
 .team img{
   max-width: 100%;
@@ -72,4 +79,22 @@ img{
   padding: 5px;
   font-size: 2rem;
   float: right;
+}
+
+/* Details Tag Styling */
+details > summary{
+  list-style-type: none;
+}
+details > summary::after{
+  content: '+';
+  float: right;
+  vertical-align: middle;
+}
+details[open] > summary::after{
+  content: '=';
+  float: right;
+  vertical-align: middle;
+}
+.deSumDiv{
+  background-color: #384857;
 }
